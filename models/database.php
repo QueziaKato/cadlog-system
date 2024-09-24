@@ -15,9 +15,9 @@ if(!self::$instance){
 self::$instance = new
 PDO("mysql:host=$host;dbname=$db", $user, $password);
 self::$instance->setAttribute(PDO::ATTR_ERMODE, PDO::ERMODE::EXCEPTION);
-}
+} 
 return self::$instance;
        
     }
 }
-?>
+?> 
