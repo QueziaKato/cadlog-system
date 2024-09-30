@@ -40,5 +40,5 @@ O Cad-log System é uma aplicação desenvolvida em sala de aula para gerenciar 
 Esse projeto visa facilitar a gestão de usuários de forma organizada e segura, garantindo uma experiência fluida para todos os perfis. 🌟
  
  ## Imagem :
-![imagem](img/login.png.png)
+![imagem](img/login.png.png) 
 ![imagem](img/register.png.png)
