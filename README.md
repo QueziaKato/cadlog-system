@@ -81,4 +81,5 @@ Contribuições são bem-vindas! Se você quiser colaborar com este projeto, sig
 5. Abra um Pull Request.
 
 ## ✒️ Autores
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/130574133?v=4" width=115><br><sub>Quezia Kato</sub>](https://github.com/QueziaKato) |[<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) | 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/130574133?v=4" width=115><br><sub>Quezia Kato</sub>](https://github.com/QueziaKato) |
+|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) | 
