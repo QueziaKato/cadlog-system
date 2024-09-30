@@ -42,3 +42,44 @@ Esse projeto visa facilitar a gestão de usuários de forma organizada e segura,
  ## Imagem :
 ![imagem](img/login.png.png) 
 ![imagem](img/register.png.png)
+
+## 📄 Fontes consultadas
+ Para listar as fontes consultadas para as descrições da estrutura do Cad-log System, você pode considerar as seguintes referências:
+
+### Fontes Consultadas 📚
+
+1. **Documentação do PHP**:
+   - [PHP Manual](https://www.php.net/manual/pt_BR/index.php) - Para entender funções e práticas recomendadas no PHP, incluindo conceitos de autenticação e gerenciamento de usuários.
+
+2. **Documentação do MySQL**:
+   - [MySQL Documentation](https://dev.mysql.com/doc/) - Recursos sobre configuração do banco de dados, comandos SQL e práticas de modelagem.
+
+3. **MDN Web Docs**:
+   - [MDN Web Docs](https://developer.mozilla.org/pt-BR/) - Para informações sobre desenvolvimento web, incluindo JavaScript e práticas de criação de interfaces.
+
+4. **Artigos e Tutoriais**:
+   - [W3Schools](https://www.w3schools.com/) - Tutoriais sobre PHP, HTML e SQL, que podem ter ajudado na compreensão das interações entre a aplicação e o banco de dados.
+
+5. **Livros**:
+   - "PHP & MySQL: Novice to Ninja" - Um guia prático que cobre a construção de aplicações web com PHP e MySQL.
+   - "Learning PHP, MySQL & JavaScript" - Outro recurso útil para o desenvolvimento web.
+
+6. **Comunidades de Desenvolvimento**:
+   - [Stack Overflow](https://stackoverflow.com/) - Para discussões e soluções sobre problemas específicos relacionados a PHP e MySQL.
+
+Essas fontes podem ajudar a validar e enriquecer suas descrições sobre a estrutura da aplicação e os conceitos utilizados no desenvolvimento do Cad-log System.
+ ## ➡️ Como executar
+1. Clone este repositório.
+2. Instale as dependências necessárias utilizando o comando [inserir comando].
+3. Execute o projeto utilizando o comando [inserir comando].
+## ✅ Contribuição
+Contribuições são bem-vindas! Se você quiser colaborar com este projeto, siga os passos abaixo:
+1. Faça um fork deste repositório.
+2. Crie uma branch para a sua feature (`git checkout -b minha-feature`).
+3. Faça commit das suas alterações (`git commit -m 'Adicionando nova funcionalidade'`).
+4. Faça push para a branch criada (`git push origin minha-feature`).
+5. Abra um Pull Request.
+
+## ✒️ Autores
+https://github.com/QueziaKato
+https://github.com/LeonardoRochaMarista
