@@ -9,10 +9,6 @@ Login de Usuários: Autenticação de usuários com validação de credenciais.
 Perfis de Usuários: Três tipos de perfis com diferentes permissões: Admin, Gestor e Colaborador.
 Interface Intuitiva: Tela de login e cadastro com design responsivo e acessível.
 
-Claro! Vamos adicionar uma seção ao README explicando a finalidade de cada um dos arquivos mencionados. Aqui está a atualização:
-
----
-
 ## Estrutura de Arquivos Importantes
 
 ### Descrição dos Arquivos
