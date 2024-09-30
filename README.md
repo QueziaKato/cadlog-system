@@ -35,4 +35,4 @@ Claro! Vamos adicionar uma seção ao README explicando a finalidade de cada um 
 
 - **`database.sql`**: Um arquivo SQL que contém a estrutura do banco de dados e as instruções para a criação das tabelas necessárias para armazenar os dados dos usuários e outras informações da aplicação.
 
----
+--- 
