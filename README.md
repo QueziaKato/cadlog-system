@@ -39,11 +39,11 @@ O Cad-log System é uma aplicação desenvolvida em sala de aula para gerenciar 
 
 Esse projeto visa facilitar a gestão de usuários de forma organizada e segura, garantindo uma experiência fluida para todos os perfis. 🌟
  
- ## Imagem :
+ ### Imagem :
 ![imagem](img/login.png.png) 
 ![imagem](img/register.png.png)
 
-## 📄 Fontes consultadas
+### 📄 Fontes consultadas
  Para listar as fontes consultadas para as descrições da estrutura do Cad-log System, você pode considerar as seguintes referências:
 
 ### Fontes Consultadas 📚
@@ -68,11 +68,11 @@ Esse projeto visa facilitar a gestão de usuários de forma organizada e segura,
    - [Stack Overflow](https://stackoverflow.com/) - Para discussões e soluções sobre problemas específicos relacionados a PHP e MySQL.
 
 Essas fontes podem ajudar a validar e enriquecer suas descrições sobre a estrutura da aplicação e os conceitos utilizados no desenvolvimento do Cad-log System.
- ## ➡️ Como executar
+ ### ➡️ Como executar
 1. Clone este repositório.
 2. Instale as dependências necessárias utilizando o comando [inserir comando].
 3. Execute o projeto utilizando o comando [inserir comando].
-## ✅ Contribuição
+### ✅ Contribuição
 Contribuições são bem-vindas! Se você quiser colaborar com este projeto, siga os passos abaixo:
 1. Faça um fork deste repositório.
 2. Crie uma branch para a sua feature (`git checkout -b minha-feature`).
@@ -80,6 +80,6 @@ Contribuições são bem-vindas! Se você quiser colaborar com este projeto, sig
 4. Faça push para a branch criada (`git push origin minha-feature`).
 5. Abra um Pull Request.
 
-## ✒️ Autores
+### ✒️ Autores
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/130574133?v=4" width=115><br><sub>Quezia Kato</sub>](https://github.com/QueziaKato) |
 |[<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) | 
