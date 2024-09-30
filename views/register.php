@@ -15,7 +15,7 @@
 
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #e9ecef; /* Cor de fundo suave */
+            background-color: #f0f4f8; /* Fundo claro e suave */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -23,16 +23,16 @@
         }
 
         div {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-            padding: 30px;
-            width: 300px;
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente bonito */
+            border-radius: 15px; /* Bordas arredondadas mais acentuadas */
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            width: 320px;
+            color: white; /* Texto em branco */
         }
 
         h2 {
             text-align: center;
-            color: #343a40; /* Cor do título */
             margin-bottom: 20px;
         }
 
@@ -45,43 +45,44 @@
         input, select {
             padding: 12px;
             margin-bottom: 15px;
-            border: 1px solid #ced4da; /* Bordas mais suaves */
-            border-radius: 4px;
-            transition: border-color 0.3s;
+            border: none; /* Remove bordas */
+            border-radius: 5px;
+            transition: all 0.3s;
         }
 
         input:focus, select:focus {
-            border-color: #495057; /* Cor ao focar */
+            border: 2px solid #ffdd57; /* Cor ao focar */
             outline: none;
         }
 
         button {
             padding: 12px;
-            background-color: #007bff; /* Cor azul */
-            color: white;
+            background-color: #ffdd57; /* Cor amarela vibrante */
+            color: #333; /* Texto escuro */
             border: none;
-            border-radius: 4px;
+            border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.2s;
         }
 
         button:hover {
-            background-color: #0056b3; /* Cor ao passar o mouse */
+            background-color: #ffd700; /* Cor amarela mais escura ao passar o mouse */
+            transform: scale(1.05); /* Aumenta levemente o botão */
         }
 
         a {
             display: block;
             text-align: center;
-            margin-top: 10px;
-            color: #007bff;
+            margin-top: 15px;
+            color: #ffdd57; /* Cor amarela */
             text-decoration: none;
             font-weight: bold;
         }
 
         a:hover {
             text-decoration: underline;
-            color: #0056b3; /* Cor do link ao passar o mouse */
+            color: #ffd700; /* Cor do link ao passar o mouse */
         }
     </style>
 </head>
@@ -112,3 +113,4 @@
 </body>
 
 </html>
+
