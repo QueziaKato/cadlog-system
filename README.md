@@ -1,6 +1,6 @@
-### Descrição do Projeto: Cad-log System 🐾
+### Descrição do Projeto: Cad-log System !
 
-O Cad-log System é uma aplicação desenvolvida para gerenciar o cadastro de usuários em diferentes perfis: Admin, Gestor e Colaborador. Com foco na segurança e eficiência, a aplicação permite que os usuários façam login, cadastrem novos usuários e gerenciem informações de forma prática e intuitiva.
+O Cad-log System é uma aplicação desenvolvida em sala de aula para gerenciar o cadastro de usuários em diferentes perfis: Admin, Gestor e Colaborador. Com foco na segurança e eficiência, a aplicação permite que os usuários façam login, cadastrem novos usuários e gerenciem informações de forma prática e intuitiva.
 
 ---
 
@@ -38,3 +38,7 @@ O Cad-log System é uma aplicação desenvolvida para gerenciar o cadastro de us
 ---
 
 Esse projeto visa facilitar a gestão de usuários de forma organizada e segura, garantindo uma experiência fluida para todos os perfis. 🌟
+ 
+ ## Imagem :
+![imagem](img/login.png.png)
+![imagem](img/register.png.png)
