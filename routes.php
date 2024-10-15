@@ -15,6 +15,18 @@ $action = $_GET['action'] ?? 'login';  // Usa operador de coalescência nula (??
 switch($action){
     case 'login':
         $authController->login(); // chama o método login do controlador de autentificação
+        break;
+        case 'register':
+            $useController->register();
+            break;
+            case 'dashboard':
+                $dashboardController->index();
+                break;
+                case 'logout':
+
+        default:
+        $authController->login();
+        break;
 }
  
 ?>
