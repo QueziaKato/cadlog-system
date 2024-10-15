@@ -7,11 +7,10 @@
     <title>Dashboard</title>
     <link rel="stylesheet" type='text/css' media='screen' href="">
 </head>
- 
-<body class=""> <!-- Define a classe com base no perfil -->
+  <div class="<?= $_SESSION['perfil'] ?>"> <!-- Define a classe com base no perfil -->
     <div class="container">
-        <h1>Bem-vindo, Usuario!</h1>
-        <p>Esta é a visão do perfil PERFIL.</p>
+        <h1>Bem-vindo, <?= $_SESSION['perfil'] ?>!</h1>
+        <p>Esta é a visão do perfil PERFIL<?= $_SESSION['perfil'] ?>.</p>
             <!-- Admin pode gerenciar usuários (editar e excluir) -->
             <a href="index.php?action=list" class="btn">Gerenciar Usuários (Admin)</a>
  
