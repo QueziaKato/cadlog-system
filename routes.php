@@ -27,6 +27,7 @@ switch ($action) {
     case 'logout':
         $authController->logout();
         break;
+        case 'list';
     default:
         $authController->login();
         break;
