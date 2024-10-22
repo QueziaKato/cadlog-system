@@ -1,29 +1,35 @@
 <?php
-require_once'models/database.php';
-class User
-    {
-        //função para localizar uruário pelo email
-        public static function findByEmail($email){
-            $conn = database::getConnection();
-            $stmt = $conn->prepare("SELECT * FROM usuarios WHERE email = :email");
-            $stmt->execute(['email' => $email]);
+require_once 'models/database.php';
+//Faz consulta dos dados cadastrais do usuário dentro do BD
+class User{
+    //Função para localizar o usuário pelo e-mail
+    public static function findByEmail($email){
+        $conn = Database::getConnection();//Os :: servem para declarar a classe 
+        $stmt = $conn->prepare("SELECT * FROM usuarios WHERE email = :email"); //STMT = statement - estado recebe a instrução SQL selecionada junto aos :: que indica a posição da mesma, aumentando a segurança da consulta
+        $stmt->execute(['email' => $email]);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    //Função para encontrar o usuário pelo ID
+        public static function find($id){
+            $conn = Database::getConnection();
+            $stmt = $conn->prepare("SELECT * FROM usuarios WHERE id = :id");
+            $stmt->execute(['id' => $id]);
             return $stmt->fetch(PDO::FETCH_ASSOC);
         }
-        // função para encontrar usuário pelo ID
-        public static function find ($id){
-            $conn = database::getConnection();
-            $stmt = $conn->prepare("SELECT*FROM usuarios WHERE id = :id");
-            $stmt->execute(['id => $id']);
-            return $stmt->fetch(PDO::FETCH_ASSOC);
-        }
-        // função para criar um novo usuário no banco de dados
+        //Função para criar um novo usuário no banco de dados
         public static function create($data){
-            $conn = database::getConnection();
+            $conn = Database::getConnection();
             $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, senha, perfil) VALUES (:nome, :email, :senha, :perfil)");
             $stmt->execute($data);
-             
- 
+        }
+        //Função para todos os dados de todos os usuarios do banco de dados
+    
+        public static function all()
+        {
+            $conn = Database::getConnection();
+            $stmt = $conn->query('SELECT * from usuarios');
+            return $stmt->fetchAll(PDO::FETCH_ASSOC);
         }
     }
- 
-?>
+     
