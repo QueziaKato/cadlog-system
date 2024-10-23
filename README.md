@@ -11,10 +11,10 @@ O Cad-log System é uma aplicação desenvolvida em sala de aula para gerenciar 
 - **Perfis de Usuários**: Três tipos de perfis com diferentes permissões: Admin, Gestor e Colaborador. 👥
 - **Interface Intuitiva**: Tela de login e cadastro com design responsivo e acessível. 📱
 - **Campo de Nome**: O usuário insere seu nome completo.
-- **Campo de Email**: O usuário fornece um endereço de email único.
-- **Campo de Senha**: O usuário cria uma senha.
-- **Campo de Confirmação de Senha**: O usuário repete a senha para confirmação.
-- **Botão de Cadastrar**: Ao clicar, o sistema valida os dados e cria a conta.
+- **Campo de Email**: O usuário fornece um endereço de email único. ✉️ 
+- **Campo de Senha**: O usuário cria uma senha. 🔒 
+- **Campo de Confirmação de Senha**: O usuário repete a senha para confirmação. ✔️
+- **Botão de Cadastrar**: Ao clicar, o sistema valida os dados e cria a conta. 👍🏻
 ---
 
 ### Estrutura de Arquivos Importantes 📂
