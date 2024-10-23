@@ -10,7 +10,11 @@ O Cad-log System é uma aplicação desenvolvida em sala de aula para gerenciar 
 - **Login de Usuários**: Autenticação segura com validação de credenciais. 🔐
 - **Perfis de Usuários**: Três tipos de perfis com diferentes permissões: Admin, Gestor e Colaborador. 👥
 - **Interface Intuitiva**: Tela de login e cadastro com design responsivo e acessível. 📱
-
+- **Campo de Nome**: O usuário insere seu nome completo.
+- **Campo de Email**: O usuário fornece um endereço de email único.
+- **Campo de Senha**: O usuário cria uma senha.
+- **Campo de Confirmação de Senha**: O usuário repete a senha para confirmação.
+- **Botão de Cadastrar**: Ao clicar, o sistema valida os dados e cria a conta.
 ---
 
 ### Estrutura de Arquivos Importantes 📂
@@ -43,9 +47,6 @@ Esse projeto visa facilitar a gestão de usuários de forma organizada e segura,
 ![imagem](img/login.png.png) 
 ![imagem](img/register.png.png)
 
-### 📄 Fontes consultadas
- Para listar as fontes consultadas para as descrições da estrutura do Cad-log System, você pode considerar as seguintes referências:
-
 ### Fontes Consultadas 📚
 
 1. **Documentação do PHP**:
@@ -68,6 +69,7 @@ Esse projeto visa facilitar a gestão de usuários de forma organizada e segura,
    - [Stack Overflow](https://stackoverflow.com/) - Para discussões e soluções sobre problemas específicos relacionados a PHP e MySQL.
 
 Essas fontes podem ajudar a validar e enriquecer suas descrições sobre a estrutura da aplicação e os conceitos utilizados no desenvolvimento do Cad-log System.
+
  ### ➡️ Como executar
 1. Clone este repositório.
 2. Instale as dependências necessárias utilizando o comando [inserir comando].
