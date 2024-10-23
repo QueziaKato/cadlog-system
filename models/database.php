@@ -12,14 +12,7 @@ class Database{
             $db         = 'sistema_usuarios_';
             $user       = 'root';
             $password   = '';
-            // A conexão usa o driver Mysql (mysql:) e as informações de host e DB
-            try {
-                self::$instance = new PDO("mysql:host=$host;dbname=$db", $user, $password);
-                self::$instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            } catch (PDOException $e) {
-                echo 'Connection failed: ' . $e->getMessage();
-            }
-            
+            // A conexão usa o driver Mysql (mysql:) e as informações de host e DB          
             self::$instance = new PDO("mysql:host=$host;dbname=$db", $user, $password);
             // Define o modo de erro para exceções, facilitando a depuração e tratamento do erro
             self::$instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
