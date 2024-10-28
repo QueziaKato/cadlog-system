@@ -1,7 +1,3 @@
-<?php
-  session_start();
-  if(isset($_SESSION['perfil']));
-  ?>
 <!DOCTYPE html>
 <html lang="pt-br">
  
@@ -12,7 +8,7 @@
     <link rel="stylesheet" type='text/css' media='screen' href="css/list.css"> <!-- Link para o arquivo CSS -->
 </head>
  
-<body class="<?= $_SESSION['perfil']?> "> <!-- Define a classe com base no perfil do usuário -->
+<body class=""> <!-- Define a classe com base no perfil do usuário -->
     <div class="container">
         <h2>Lista de Usuários</h2>
         <table class="styled-table">
@@ -25,22 +21,33 @@
                     <th>Ações</th>
                 </tr>
             </thead>
-            <body>
-                <?php foreach($user as $user); ?>
+            <tbody>
  
-                <tr>
-                    <td><?= $user['id']?></td>
-                    <td><?= $user['nome']?></td>
-                    <td><?= $user['email']?></td>
-                    <td><?= $user['perfil']?></td>
-                    <td></td>
-                </tr>
- 
-            </body>
-        </table>
- 
-        <a href="" class="btn">Voltar ao Dashboard</a>
-    </div>
+ <?php foreach ($user as $user) : ?>
+     <tr>
+         <td><?= $user['id'] ?></td>
+         <td><?= $user['nome'] ?></td>
+         <td><?= $user['email'] ?></td>
+         <td><?= $user['perfil'] ?></td>
+         <td>
+             <!-- verifica se o perfil é admin ou gestor para poder adicionar ou não o botão editar -->
+             <?php if ($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor') : ?>
+                 <a href="index.php?edit&id">Editar</a>
+             <?php endif; ?>
+
+             <!-- insere o botão de exclusão apenas para o perfil admin -->
+             <?php if ($_SESSION['perfil'] == 'admin') : ?>
+                 <a href="">Excluir</a>
+
+             <?php endif; ?>
+         </td>
+     </tr>
+ <?php endforeach; ?>
+</tbody>
+</table>
+
+<a href="index.php?action=dashboard" class="btn">Voltar ao Dashboard</a>
+</div>
 </body>
- 
+
 </html>

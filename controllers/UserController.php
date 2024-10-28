@@ -27,6 +27,14 @@ class UserController
         $users = User::all();
         include 'views/list_users.php';
     }
+    public function edit($id){
+        session_start();
+
+      // Permitir que admin e gestor editem  
+      if ($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'){
+        $user = User::find($id);
+      }
+    }
 }
 ?>
  
