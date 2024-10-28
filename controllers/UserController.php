@@ -33,6 +33,19 @@ class UserController
       // Permitir que admin e gestor editem  
       if ($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'){
         $user = User::find($id);
+
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+            $data = [
+                'nome' => $_POST['nome'],
+                'email' => $_POST['email'],
+                'perfil' => $_POST['perfil']
+ 
+            ];
+
+            User::update($id, $data);
+            header('Location')
+
+        }
       }
     }
 }
