@@ -82,6 +82,24 @@ Contribuições são bem-vindas! Se você quiser colaborar com este projeto, sig
 4. Faça push para a branch criada (`git push origin minha-feature`).
 5. Abra um Pull Request.
 
+# Dashboard do Projeto
+
+## Versão Atual: Release [2.0]
+
+### Melhorias Implementadas
+- Adicionada estilização à dashboard para uma melhor experiência do usuário.
+- Diferenciação visual baseada no perfil do usuário.
+
+### Como Usar
+- Acesse a dashboard de acordo com seu perfil.
+- Admins podem gerenciar usuários (editar e excluir).
+- Gestores podem editar usuários.
+- Colaboradores têm acesso restrito.
+
+### Comandos para Execução
+- Para iniciar o projeto, execute `php -S localhost:8000`.
+
+
 ### ✒️ Autores
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/130574133?v=4" width=115><br><sub>Quezia Kato</sub>](https://github.com/QueziaKato) |
 |[<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) | 
