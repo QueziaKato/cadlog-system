@@ -31,14 +31,14 @@
             margin-top: 10px;
             padding: 10px 15px;
             color: #fff; /* Cor do texto do botão */
-            background-color: #E6E6FA; /* Roxo lavanda */
+            background-color: #800080; /* Roxo puro */
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s; /* Animação suave ao passar o mouse */
         }
 
         .btn:hover {
-            background-color: #D8BFD8; /* Cor ao passar o mouse */
+            background-color: #6A006A; /* Cor ao passar o mouse */
         }
     </style>
 </head>
@@ -63,4 +63,3 @@
 </body>
  
 </html>
-
