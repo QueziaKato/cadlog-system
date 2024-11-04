@@ -46,6 +46,7 @@ Esse projeto visa facilitar a gestão de usuários de forma organizada e segura,
  ### Imagem :
 ![imagem](img/login.png.png) 
 ![imagem](img/register.png.png)
+![imagem](img/tela_dashboard.png)
 
 ### Fontes Consultadas 📚
 
@@ -82,9 +83,9 @@ Contribuições são bem-vindas! Se você quiser colaborar com este projeto, sig
 4. Faça push para a branch criada (`git push origin minha-feature`).
 5. Abra um Pull Request.
 
-# Dashboard do Projeto
+### Dashboard do Projeto
 
-## Versão Atual: Release [2.0]
+### Versão Atual: Release [2.0]
 
 ### Melhorias Implementadas
 - Adicionada estilização à dashboard para uma melhor experiência do usuário.
