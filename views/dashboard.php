@@ -23,7 +23,7 @@
         }
 
         h1 {
-            color: #333;
+            color: #6a11cb; /* Cor do título */
         }
 
         .btn {
@@ -31,14 +31,15 @@
             margin-top: 10px;
             padding: 10px 15px;
             color: #fff; /* Cor do texto do botão */
-            background-color: #800080; /* Roxo puro */
+            background-color: #6a11cb; /* Roxo */
             text-decoration: none;
             border-radius: 5px;
-            transition: background-color 0.3s; /* Animação suave ao passar o mouse */
+            transition: background-color 0.3s, transform 0.2s; /* Animações suaves */
         }
 
         .btn:hover {
-            background-color: #6A006A; /* Cor ao passar o mouse */
+            background-color: #5a0db1; /* Cor mais escura ao passar o mouse */
+            transform: scale(1.05); /* Aumenta levemente o botão */
         }
     </style>
 </head>
