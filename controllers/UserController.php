@@ -49,7 +49,7 @@ class UserController
                 include 'views/edit_user.php';
             }
         } else {
-            echo 'Você nao tem permissão para editar usuarios';
+            echo 'Você não tem permissão para editar usuarios';
         }
     }
 }
