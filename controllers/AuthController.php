@@ -37,3 +37,6 @@ class AuthController
     }
 }
 ?>
+</body>
+
+</html>
